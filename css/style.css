@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background: #FDFCEF;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    line-height: 140%;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    padding: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 136%;
+}
+
+.btn {
+    display: block;
+    font-weight: 700px;
+    border-radius: 100px;
+    background: #FF6861;
+    padding: 22px 70px;
+    width: 227px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.logo {
+    padding-top: 60px;
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.img-logo {
+    margin-right: 10px;
+}
+
+.desc-wrap {
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-block {
+    width: 465px;
+}
+
+.desc-text {
+    width: 423px;
+    margin: 30px 0;
+}
+
+.desc-img {
+    display: block;
+    padding: 105px;
+    border-radius: 70px;
+    background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
+}
+
+
+/* Items */
+
+.items-list {
+    margin-top: 120px;
+}
+
+.items-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    margin: 70px auto 0 auto;
+    gap: 41px
+}
+
+.items-title {
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.item-info {
+    width: 613px;
+}
+
+.item-text {
+    margin: 11px 0 0 0;
+}
+
+
+/* Animals */
+
+.animals-wrap {
+    padding: 76px 122px;
+    margin-top: 120px;
+    border-radius: 60px;
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animal-info {
+    width: 475px;
+}
+
+.animal-text {
+    margin: 24px 0;
+    width: 371px;
+}
+
+.img-animal {
+    height: 287px;
+}
+
+
+/* Footer */
+
+p.copyright {
+    text-align: center;
+    margin: 120px 0;
+    font-size: 15px;
+}
